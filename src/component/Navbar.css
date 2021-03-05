@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    left: 10px;
+    justify-content: space-between;
+    margin-left: -10px;
+    padding: 10px;
+    z-index: 1;
+    transition: all 0.5s ease-out;
+}
+
+.nav_black{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    left: 10px;
+    justify-content: space-between;
+    margin-left: -10px;
+    background-color: #111;
+    padding: 10px;
+    height: 50px;
+    transition: all 0.5s ease-in;
+}
